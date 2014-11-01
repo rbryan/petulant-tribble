@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-Wall -g -O0 -funroll-loops -Isge2d
-LDFLAGS= -lm -lsge
+LDFLAGS= -Lsge2d -lm -lsge -lSDL -lSDL_mixer -lSDL_image
 
 
 all: main.o 
