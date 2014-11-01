@@ -133,10 +133,10 @@ extern "C" {
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
  */
-#include <SDL.h>
-#include <SDL_image.h>
-#include <SDL_mixer.h>
-#include <SDL_audio.h>
+#include <SDL/SDL.h>
+#include <SDL/SDL_image.h>
+#include <SDL/SDL_mixer.h>
+#include <SDL/SDL_audio.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

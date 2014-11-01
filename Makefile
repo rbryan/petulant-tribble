@@ -1,7 +1,6 @@
 CC=gcc
 CFLAGS=-Wall -g -O0 -funroll-loops -Iinclude -I/usr/include/SDL 
-LDFLAGS= -lm 
-
+LDFLAGS= -lm -lSDL -lSDL_mixer -lSDL_image
 
 all: main.o 
 	$(CC) $(CFLAGS) $(LDFLAGS) lib/libsge.a main.o -o space-terraria
