@@ -8,6 +8,11 @@ int keyFunc(SGEGAMESTATE *state, SGEEVENT *event)
 	return EVENT_HANDLED;
 }
 
+/*void onRedraw(SGEGAMESTATE *state)
+{
+	sgeTileMapDraw(tileMap, screen);
+}*/
+
 int run(int argc, char **argv)
 {
 	SGEGAMESTATEMANAGER *manager;
@@ -18,6 +23,7 @@ int run(int argc, char **argv)
 
 	game_state = sgeGameStateNew();
 	game_state->onKeyDown = keyFunc;
+	//game_state->onRedraw = onRedraw;
 
 	manager = sgeGameStateManagerNew();
 	sgeGameStateManagerChange(manager, game_state);
