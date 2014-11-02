@@ -1,0 +1,8 @@
+Worlds:
+	Space View:
+		Edges covered with sprites based on biome
+		Any number of biomes, varying size planets
+	Biomes:
+		minimum size 1 chunk
+	Transition from world to space viw when neither can be seen
+	
