@@ -394,8 +394,8 @@ extern "C" {
 #include <sgefadefx.h>
 #include <sgetile.h>
 
-#include <../thirdparty/md5/md5.h>
-#include <../thirdparty/sha1-c/sha1.h>
+#include <md5.h>
+#include <sha1.h>
 
 #ifdef __cplusplus
 }
